@@ -13,7 +13,7 @@ public class Main {
         int ammount = scanner.nextInt();
         System.out.print("Enter n ");
         int swap = scanner.nextInt();
-        if (masive_size < 100)
+        if (masive_size <= 100)
         {
             System.out.println("\nYour array < 100. Enter the new data: ");
             task();
